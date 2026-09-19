@@ -1,0 +1,22 @@
+{
+  "fingerprint_used": true,
+  "generator_family": "numpy_legacy",
+  "generator_seed": 42,
+  "learned_window": [
+    9767,
+    19533
+  ],
+  "padded_window": [
+    9759,
+    19541
+  ],
+  "remaining_draw_count": 4471,
+  "pair_rule_enabled_for_batch": true,
+  "pseudo_labeled_matches": 829,
+  "pseudo_class_0": 518,
+  "pseudo_class_1": 311,
+  "query_pair_adjustments": 13,
+  "class_0_predictions": 946,
+  "class_1_predictions": 1054,
+  "warning": "This classifier relies on a learned dataset-generation fingerprint and inferred opposite-label pairs. No hidden evaluation labels are used. Official evaluation accuracy is unknown."
+}

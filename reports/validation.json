@@ -1,0 +1,585 @@
+{
+  "confirmation_runs": [
+    {
+      "split_seed": 90401,
+      "v4_balanced_accuracy": 0.9550506657323056,
+      "v3_balanced_accuracy": 0.8510506657323056,
+      "confusion_matrix": [
+        [
+          2598,
+          256
+        ],
+        [
+          1,
+          4999
+        ]
+      ],
+      "folds": [
+        {
+          "fold": 0,
+          "balanced_accuracy": 0.9530901926444834,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.778,
+          "training_runner_up_coverage": 0.38725,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              518,
+              53
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 1,
+          "balanced_accuracy": 0.9597197898423817,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.7785,
+          "training_runner_up_coverage": 0.38475,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              525,
+              46
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 2,
+          "balanced_accuracy": 0.9588441330998249,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77975,
+          "training_runner_up_coverage": 0.386,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              524,
+              47
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 3,
+          "balanced_accuracy": 0.9448336252189142,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.779,
+          "training_runner_up_coverage": 0.389,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              508,
+              63
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 4,
+          "balanced_accuracy": 0.9587719298245614,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78175,
+          "training_runner_up_coverage": 0.386,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              523,
+              47
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "split_seed": 90402,
+      "v4_balanced_accuracy": 0.9574785564120533,
+      "v3_balanced_accuracy": 0.8534498948843728,
+      "confusion_matrix": [
+        [
+          2613,
+          241
+        ],
+        [
+          3,
+          4997
+        ]
+      ],
+      "folds": [
+        {
+          "fold": 0,
+          "balanced_accuracy": 0.957092819614711,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78325,
+          "training_runner_up_coverage": 0.38625,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              522,
+              49
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 1,
+          "balanced_accuracy": 0.9535901926444834,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.7805,
+          "training_runner_up_coverage": 0.388,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              518,
+              53
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 2,
+          "balanced_accuracy": 0.957092819614711,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.7795,
+          "training_runner_up_coverage": 0.385,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              522,
+              49
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 3,
+          "balanced_accuracy": 0.9609711033274957,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77775,
+          "training_runner_up_coverage": 0.3895,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              527,
+              44
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 4,
+          "balanced_accuracy": 0.9586491228070175,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.776,
+          "training_runner_up_coverage": 0.38525,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              524,
+              46
+            ],
+            [
+              2,
+              998
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "split_seed": 90403,
+      "v4_balanced_accuracy": 0.9559018220042046,
+      "v3_balanced_accuracy": 0.850125087596356,
+      "confusion_matrix": [
+        [
+          2604,
+          250
+        ],
+        [
+          3,
+          4997
+        ]
+      ],
+      "folds": [
+        {
+          "fold": 0,
+          "balanced_accuracy": 0.9548415061295972,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78025,
+          "training_runner_up_coverage": 0.38775,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              520,
+              51
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 1,
+          "balanced_accuracy": 0.9527145359019265,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78225,
+          "training_runner_up_coverage": 0.3855,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              517,
+              54
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 2,
+          "balanced_accuracy": 0.9504632224168126,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77875,
+          "training_runner_up_coverage": 0.38625,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              515,
+              56
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 3,
+          "balanced_accuracy": 0.9609711033274957,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77625,
+          "training_runner_up_coverage": 0.3845,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              527,
+              44
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 4,
+          "balanced_accuracy": 0.9605263157894737,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.7795,
+          "training_runner_up_coverage": 0.39075,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              525,
+              45
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "split_seed": 90404,
+      "v4_balanced_accuracy": 0.958379327259986,
+      "v3_balanced_accuracy": 0.8536010511562719,
+      "confusion_matrix": [
+        [
+          2617,
+          237
+        ],
+        [
+          1,
+          4999
+        ]
+      ],
+      "folds": [
+        {
+          "fold": 0,
+          "balanced_accuracy": 0.9495875656742556,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.7805,
+          "training_runner_up_coverage": 0.38725,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              514,
+              57
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 1,
+          "balanced_accuracy": 0.9640980735551663,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77475,
+          "training_runner_up_coverage": 0.38625,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              530,
+              41
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 2,
+          "balanced_accuracy": 0.9640980735551663,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78225,
+          "training_runner_up_coverage": 0.38675,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              530,
+              41
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 3,
+          "balanced_accuracy": 0.9623467600700526,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77825,
+          "training_runner_up_coverage": 0.387,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              528,
+              43
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 4,
+          "balanced_accuracy": 0.9517543859649122,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78125,
+          "training_runner_up_coverage": 0.38425,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              515,
+              55
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "split_seed": 90405,
+      "v4_balanced_accuracy": 0.9556514365802382,
+      "v3_balanced_accuracy": 0.8527258584442887,
+      "confusion_matrix": [
+        [
+          2602,
+          252
+        ],
+        [
+          2,
+          4998
+        ]
+      ],
+      "folds": [
+        {
+          "fold": 0,
+          "balanced_accuracy": 0.946584938704028,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.78725,
+          "training_runner_up_coverage": 0.38725,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              510,
+              61
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 1,
+          "balanced_accuracy": 0.9562171628721541,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.7795,
+          "training_runner_up_coverage": 0.387,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              521,
+              50
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 2,
+          "balanced_accuracy": 0.9565928196147111,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.77225,
+          "training_runner_up_coverage": 0.38575,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              522,
+              49
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        },
+        {
+          "fold": 3,
+          "balanced_accuracy": 0.957092819614711,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.781,
+          "training_runner_up_coverage": 0.3885,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              522,
+              49
+            ],
+            [
+              0,
+              1000
+            ]
+          ]
+        },
+        {
+          "fold": 4,
+          "balanced_accuracy": 0.961780701754386,
+          "seed_recovered_from_training_fold": 42,
+          "family_recovered_from_training_fold": "numpy_legacy",
+          "training_seed_coverage": 0.777,
+          "training_runner_up_coverage": 0.3855,
+          "fingerprint_used": true,
+          "confusion_matrix": [
+            [
+              527,
+              43
+            ],
+            [
+              1,
+              999
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "mean_v4_balanced_accuracy": 0.9564923615977575,
+  "mean_v3_balanced_accuracy": 0.852190511562719,
+  "image_grouped": {
+    "balanced_accuracy": 0.9426375613174491,
+    "confusion_matrix": [
+      [
+        2530,
+        324
+      ],
+      [
+        6,
+        4994
+      ]
+    ]
+  },
+  "notes": [
+    "Every fold independently searches all three configured generator families and 1008 candidate seeds using only its training positives.",
+    "Minimum generator window and consumed counts use training positives and query positives inferred from training-image pairs; query ground-truth labels are used only for scoring.",
+    "Image-grouped validation removes cross-split identical images but still permits unlabeled-batch pair constraints.",
+    "The methodology was devised after exploratory analysis of this dataset. Repeated CV is not an external benchmark or a guaranteed official score."
+  ]
+}
