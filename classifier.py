@@ -186,13 +186,13 @@ def infer(model, rows, x):
     }
 
 
-if __name__ == "__main__":
+def main(argv=None):
     p = argparse.ArgumentParser()
     p.add_argument("command", choices=["train", "predict"])
     p.add_argument("--data", required=True)
     p.add_argument("--output", required=True)
     p.add_argument("--model")
-    args = p.parse_args()
+    args = p.parse_args(argv)
     if args.command == "train":
         rows, x = load_data(args.data, "train")
         model = train_model(rows, x)
@@ -222,3 +222,7 @@ if __name__ == "__main__":
             w.writerows((r["image_id"], int(v)) for r, v in zip(rows, pred))
         path.with_suffix(".diagnostics.json").write_text(json.dumps(diag, indent=2))
         print(json.dumps(diag))
+
+
+if __name__ == "__main__":
+    main()

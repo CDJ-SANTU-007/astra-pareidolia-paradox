@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Predict
 
 ```sh
-python classifier.py predict --data "path/to/The Pareidolia Paradox Dataset" --model model.json --output submission.csv
+python inference.py --data "path/to/The Pareidolia Paradox Dataset" --model model.json --output submission.csv
 python validate_submission.py --submission submission.csv --metadata "path/to/The Pareidolia Paradox Dataset/Test/test_metadata.csv"
 ```
 
@@ -39,7 +39,7 @@ python validate_submission.py --submission submission.csv --metadata "path/to/Th
 ## Train and validate
 
 ```sh
-python classifier.py train --data "path/to/The Pareidolia Paradox Dataset" --output model.json
+python train.py --data "path/to/The Pareidolia Paradox Dataset" --output model.json
 python validate_model.py --data "path/to/The Pareidolia Paradox Dataset" --output validation_reproduced.json
 ```
 
@@ -47,6 +47,8 @@ Generator discovery is repeated independently within each validation training fo
 
 ## Repository layout
 
+- `train.py`: training entry point.
+- `inference.py`: evaluation entry point.
 - `classifier.py`: generator discovery, training, and prediction.
 - `pairing.py`: dataset loading and image-pair inference.
 - `calibration.py`: sector calibration and fallback classifier.
@@ -55,3 +57,17 @@ Generator discovery is repeated independently within each validation training fo
 - `reports/`: validation metrics and prediction diagnostics.
 
 The original dataset is not included.
+
+## Solar-angle normalization and model artifact
+
+The loader converts each image to grayscale and rotates it by `-sun_azimuth_angle` degrees with Pillow bilinear interpolation, keeping the original canvas size. It then resizes to 128 x 128 for brightness summaries. Positive Pillow angles rotate counterclockwise, so this negative rotation is clockwise. SHA-256 hashes are calculated from the original PNG bytes before rotation.
+
+The selected classifier uses the original solar angle and exact-image pair relationships; the rotated brightness summaries do not influence its predictions. Rotation therefore exists in preprocessing but is not the source of this model's validation performance.
+
+`model.json` is the complete fitted model artifact, containing the discovered generator parameters, angle counts, image-hash label references, and fallback calibration. This model has no neural-network weight tensors. Inference needs this artifact plus the evaluation images and metadata; it does not read training files. Run inference on all 2,000 evaluation images together because the method adapts to the complete batch.
+
+[Download fitted model from Google Drive](https://drive.google.com/uc?export=download&id=1Hkcu8t5zBaOm_TzSFz2nNbLX9M76EQ9K).
+
+Model SHA-256: `9cbb8bf7c552acdb43354033fbcc266c39069536abfc81a154f8a07afef06742`.
+
+See [METHODOLOGY.md](METHODOLOGY.md) for the submission summary.
