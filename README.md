@@ -21,6 +21,8 @@ This is a dataset-specific, transductive classifier. It depends on the metadata-
 
 Requires Python 3.12. Extract the outer dataset archive and retain the supplied inner image archives beside their metadata.
 
+Hardware: a CPU-only computer is sufficient; no GPU or CUDA is required. Allow 2 GB of available RAM as a practical recommendation (not a measured minimum), plus disk space for the supplied image archives. Training searches candidate random generators in memory; inference processes the full evaluation batch.
+
 ```sh
 python -m venv .venv
 # Activate the environment, then install dependencies:
@@ -67,6 +69,8 @@ The selected classifier uses the original solar angle and exact-image pair relat
 `model.json` is the complete fitted model artifact, containing the discovered generator parameters, angle counts, image-hash label references, and fallback calibration. This model has no neural-network weight tensors. Inference needs this artifact plus the evaluation images and metadata; it does not read training files. Run inference on all 2,000 evaluation images together because the method adapts to the complete batch.
 
 [Download fitted model from Google Drive](https://drive.google.com/uc?export=download&id=1Hkcu8t5zBaOm_TzSFz2nNbLX9M76EQ9K).
+
+[Download competition model ZIP](https://drive.google.com/uc?export=download&id=1diC9NJIqO_HKDpU6wYrhQEKzmK3VgEPp). Extract `model.json` beside `inference.py` before running the command above.
 
 Model SHA-256: `9cbb8bf7c552acdb43354033fbcc266c39069536abfc81a154f8a07afef06742`.
 
